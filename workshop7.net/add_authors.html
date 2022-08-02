@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Author</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/template.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+    <section>
+        <div class="d-flex flex-column">
+          <h1>Add new Author</h1>
+          <div class="form-contact-info">
+            <div class="error_msg" id="error_msg"></div>
+            <form id="book-form">
+              <input type="text" class="form-input" name="title" value="" placeholder="Name Author" class="required" id="title"  />
+              <!-- <input type="text" name="author" value="" placeholder="Type your author" class="required" id="author" /> -->
+              
+              <input type="button" value="Add" id="add-book-button" onclick="guardar_Author();" />
+            </form>
+          </div>
+        </div>
+      </section>
+    
+</body>
+</html>
